@@ -1,0 +1,311 @@
+
+
+.navbar-nav .nav-link {
+    color: black !important;
+    font-size: 15px !important;
+}
+.nav-link active{
+    font-size: 15px!important;
+}
+.nav-link{
+    padding: 20px;
+}
+.navbar-nav{
+    display:contents!important;
+}
+.navbar-nav .nav-link:hover {
+    text-decoration: none;
+    color: #e22104!important;
+    outline: none!important;
+}
+.nav-link active:hover {
+    text-decoration: none;
+    color: #e22104!important;
+    outline: none!important;
+}
+.navbar-brand{
+    font-family:'Courier New', Courier, monospace!important;
+    color: indianred !important;;
+    font-size: 30px!important;
+    font-family: 25px!important;
+    font-weight: bold!important;
+}
+.contant{
+    font-size: 70px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: indianred;
+}
+button{
+    border-radius: 15px!important;
+    background-color: crimson;
+    width:220 px!important;
+    border-color: #e22104;
+    height: 30px;
+    font-size: 15px!important;
+    margin-top: 10px;
+    color:rgb(243, 155, 155);
+}
+.large-button {
+    font-size: 20px; /* Increase font size */
+    padding: 5px 20px; 
+    width: 170px!important;
+    font-size: large;
+   
+    background-color: crimson;
+    margin-top: 80px!important;
+}
+.resto{
+    color:white; font-weight: 50px; font-size: 100px;
+}
+.resto1{
+    font-size: 60px;color: aliceblue;
+
+}
+.resto2{
+    color:white; font-weight: 50px; font-size: 100px;
+}
+
+.pp{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.list {
+    text-align: center; /* Center align the content */
+}
+
+.list a {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #fff;
+    background: #fa9c9c; /* Replace with your color */
+    box-shadow: 0;
+    background-color:indianred;
+    outline: none;
+    margin: 0 10px; /* Adjust the margin to control the space between the buttons */
+    margin: 145px;
+    outline: none;
+    color: white;
+
+}
+
+.btn-watch-video {
+    font-size: 16px;
+    transition: 0.5s;
+    margin-left: 0; /* Remove the margin-left */
+    color: #000; /* Replace with your color */
+    font-weight: 600;
+}
+
+
+
+
+.btn btn-warning{
+    padding-right: 20px;
+    width: 150px;
+    margin-bottom: 91px!important;
+    margin-top: 80px!important;
+}
+.container{
+    max-width: 1555px;
+}
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1520px;
+
+}
+.Confirm{
+    position: absolute;
+    transform: translateY(-50%);
+    background-color:bisque;
+    color: white;
+  
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+  width: 358px!important;
+  height: 30px!important;
+  margin-top: 10px!important;
+}
+.Confirm:hover {
+    background-color:white;
+  }
+  
+
+  .card {
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7); /* White background with some transparency */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 50px;
+}
+
+
+
+.card:hover .overlay {
+    opacity: 1;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 600px;
+    background-color:white;
+    padding: 1px;
+    margin-left: 500px;
+    margin-top: 50px;
+    border-radius: 10px;
+  }
+  .reservation-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%; /* Ensure the box takes up the full height */
+}
+.contact-info {
+    display: flex;
+    align-items: center;
+}
+
+.contact-info a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+.form-group{
+    font-weight: 30px;
+}
+
+.phone-number {
+ color: white;
+    font-size: 16px;
+}
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    transform: scale(1.05); 
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.container1{
+    max-width: 1675px;
+    padding-left: 33px; padding-right: 0;
+    background-color:rgba(255, 255, 255, 0.7)
+}
+.Welcome{
+    font-size: 20px; padding-left: 10px;
+}
+.Welcome2{
+    font-size: 20px; padding-left: 10px
+}
+.spe{
+    margin-left: 430px;
+}
+label{
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.hero {
+    height: 600px;
+    position: relative; }
+    @media (min-width: 992px) {
+      .hero {
+        height: calc(100vh - 130px); } }
+  
+  .hero-info {
+    padding-top: 60px; }
+    @media (min-width: 1420px) {
+      .hero-info {
+        padding-top: 140px; } }
+    .hero-info li {
+      padding-right: 15px;
+      padding-left: 15px; }
+    .hero-info .lnr {
+      display: block;
+      font-size: 32px;
+      margin-bottom: 15px; }
+  
+  .hero-carousel .owl-prev, .hero-carousel .owl-next {
+    width: 110px;
+    height: 110px; }
+  
+  .hero-carousel .owl-prev, .hero-carousel .owl-next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff; }
+  
+  .hero-carousel .owl-prev {
+    border-right: 1px solid #f7f8f9; }
+  
+  .hero-carousel .owl-nav {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0; }
+  
+  .hero-carousel .owl-item img {
+    height: 600px;
+    object-fit: cover;
+    max-width: 100%; }
+    @media (min-width: 992px) {
+      .hero-carousel .owl-item img {
+        height: calc(100vh - 130px); } }
+        .icons {
+            display: flex;
+            flex-direction: column; /* Aligns items in a column */
+            align-items: center; /* Centers items horizontally */
+            margin-bottom: 90px; /* Adjust the margin as needed */
+            color: salmon;
+            padding: -133px;
+            margin: -166px;
+        }
+        
+        /* Other existing styles */
+        
+        .hero-info i {
+            font-size: 3.5rem;
+        }
+        
+        .hero-info h5 {
+            font-weight: bold;
+            font-size: 3.5rem;
+            background-color: lightyellow;
+        }
+        
+        .hero-info li {
+            padding: 60px 40px; /* Adjust the padding as needed */
+        }        
+        td{
+            background: none;
+            font-size: 10px;
+        }
